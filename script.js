@@ -66,8 +66,8 @@ function generatePassword() {
 
   while (password.length < passlength) {
     // Get random index from array of options
-    var index = Math.floor(Math.random() * specialCharacters.length);
-    password += specialCharacters[index];
+    var index = Math.floor(Math.random() * numerics.length);
+    password += numerics[index];
   }
   
 
